@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIOS</title>
+      <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  >
+
+
+</head>
+<body>
+    <header>
+
+    </header> 
+  <main class="container">
+    <h1>Formularios + Inputs</h1>
+    <form>
+    <h2>Inputs</h2>
+
+        <label for="input1">Input tipo texto</label>
+        <input id="input1" placeholder="Ingresa algún texto" />
+
+        <label>
+        Input (solo lectura)
+        <input readonly value="Copia este código" placeholder="Input de
+        solo lectura" type="text" />
+        </label>
+
+        <label>
+        Input (desactivado)
+        <input disabled placeholder="Input desactivado" type="text" />
+        </label>
+
+        <label>
+        Input (number)
+        <input placeholder="Edad Ej. 18" type="number" min="18" max="99">
+        </label>
+
+        <label>
+        Input (email)
+        <input placeholder="Correo Ej. corre@mail.com" type="email" />
+        </label>
+
+        <label>
+        Input (rango)
+        <input  type="range" min="0" max="100" step="10">
+        </label>
+
+        <label>
+        Input (teléfono)
+        <input type="tel" placeholder="(+51) 999 999 999">
+        </label>
+        
+        <label>
+        Input (password)
+        <input type="password" placeholder="Password">
+        </label>
+
+        <label>
+        Input (tipo color)
+        <input type="color" >
+        </label>
+        <label>
+        Input (búsqueda)
+        <input type="search">
+        </label>
+        <label>
+        Input (archivo seleccionar un archivo a la vez) Ej..png
+        <input type="file" accept=".png" />
+        </label>
+        <label>
+        Input (archivo seleccionar múltiples archivos) Ej..png
+        <input type="file" accept=".png" multiple />
+        </label>
+        <input type="hidden" value="datos ocultos">
+        <input type="submit" value="Guardar">
+    </form>
+
+    <form>
+        <h2>Input tipo fecha</h2>
+        <label>
+        Input tipo fecha y hora
+        <input type="datetime-local">
+        </label>
+        <label>
+        Input tipo fecha
+        <input type="date">
+        </label>
+        <label>
+        Input tipo hora
+        <input type="time">
+        </label>
+        <label>
+        Input tipo semana
+        <input type="week">
+        </label>
+        <label>
+        Input tipo mes
+        <input type="month">
+        </label>
+        <input type="submit" value="Guardar">
+    </form>
+    <form>
+        <h2>Textarea</h2>
+        <label>
+        <textarea placeholder="Escribe una descripción sobre ti..."
+        rows="6" cols="4">Hola a todos</textarea>
+        </label>
+    </form>
+
+    <form>
+        <h2>Validaciones</h2>
+        <label>
+        Nombre (obligatorio)
+        <input type="text" name="nombre" required minlength="3"
+        maxlength="15" />
+        </label>
+        <label>
+        Email (obligatorio)
+        <input type="email" name="correo" required>
+        </label>
+        <label>
+        Comidas (obligatorio)
+        <select name="comidas" required>
+        <option value="">Selecciona tu comida favorita...</option>
+        <option>Francesa</option>
+        <option>Peruana</option>
+        <option>Italiana</option>
+        </select>
+        </label>
+        <input type="submit" value="Guardar">
+    </form>
+
+<footer>mauricio-anticona</footer>
+
+</main>
+
+    
+</body>
+</html>
