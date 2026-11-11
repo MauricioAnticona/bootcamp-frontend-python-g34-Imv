@@ -1,0 +1,15 @@
+/* body {
+    background-color: rgb(4, 168, 31);
+}*/
+
+p{
+    color: rgb(4, 168, 31); font-size: 100px;
+}
+
+.btn{
+    background-color:violet;
+}
+
+.texto-resaltado{
+    color: blue;
+}
