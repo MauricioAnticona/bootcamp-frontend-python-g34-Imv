@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #141414;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.perfil {
+  width: 280px;
+  max-width: calc(100% - 80px);
+  padding: 36px;
+  background: #1f1f1f;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.foto {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nombre {
+  margin: 24px 0 8px;
+  font-size: 24px;
+}
+
+.ubicacion {
+  margin: 0;
+  color: chartreuse;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.descripcion {
+  margin: 24px 0;
+  font-size: 14px;
+}
+
+.redes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.redes a {
+  display: block;
+  margin-top: 14px;
+  padding: 14px;
+  background: rgb(52, 52, 52);
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.redes a:hover {
+  background: #c5f82a;
+  color: #141414;
+}
