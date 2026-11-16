@@ -97,17 +97,3 @@ p {
     vertical-align: middle;
 }
 
-@media (max-width: 600px) {
-    .card {
-    flex-direction: column;
-}
-
-    .photo,
-    .content {
-    width: 100%;
-    }
-
-    .photo img {
-    height: 240px;
-    }
-}
